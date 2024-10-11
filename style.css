@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f1f1f1;
+}
+html {
+    font-family: "NeueHaasUnica", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+.container::after {
+    content: "wdf";
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    position: relative;
+    background: linear-gradient(to top, rgba(110, 115, 110, 0.27) 60%, rgba(217,217,217,1) 99%);
+    height: 93vh;
+    overflow: hidden;
+
+}
+.video-collection {
+    width: 100%;
+    min-height: 81vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-title {
+    font-size: 5rem;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.video-para {
+    font-size: 0.8;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 15px 30px;
+}
+
+.link:hover {
+    color: maroon;
+    background-color: white;
+}
+
+.main-video {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    z-index: -1;
+width: 1360px;
+}
+
+ul {
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+.basic {
+    width: 8rem;
+}
+
+.menu {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header {
+    padding: 1rem;
+    background-color: #ccb0a4;
+}
+.gots {
+    text-align: center;
+    color: #ffffff;
+}
+
+.menu:hover {
+color: black;
+}
+
+.specific {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 5%;
+}
+
+.people-link {
+    color: #610000;
+}
+
+.vision-head {
+    margin-bottom: 3%;
+    font-size: 3rem;
+}
+
+.vision {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.organic-svg {
+    position: relative;
+    left: 1.5rem;
+    align-self: center;
+    width: 2rem;
+    
+}
+
+.organic-svg-one {
+    position: relative;
+    left: 1.5rem;
+    align-self: center;
+    width: 2.4rem;
+}
+
+.vision-video {
+    width: 100%;
+}
+
+.collection {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.collection-img {
+    width: 350px;
+   
+}
+
+.collection-image, .collection-image2, .collection-image3, .collection-image4 {
+
+    position: relative;  
+}
+
+.content, .content2, .content3, .content4 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;  
+}
+.collection-h3{
+font-size: 3rem;
+margin-bottom: 3%;
+}
+.collection-p {
+  width: 70%;
+  line-height: 1.5;
+}
+.collection .link {
+    margin-top: 50px;
+}
+ 
+.new-arrivals {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.new-arrivals h3 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 5%;
+}
+.new-arrivals-card {
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.card-image {
+width: 20rem;
+height: 30rem;
+position: relative;
+}
+.pexels {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.recycle {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;   
+   
+}
+.recycle > p {
+    padding-top: 3px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 20px;
+    width: 80px;
+    border-radius: 2px;
+    color: green;
+    background-color: #f6f5f2;
+}
+.ajlin {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.ajlin > span {
+    margin-left: 100px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.res{
+    margin: 10% auto;
+}
+.res > h2 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5;
+}
+.value {
+    margin: 10% auto;
+    
+}
+
+.value1 {
+    margin: 12%;
+}
+.value1 h2 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5;
+}
+.value p {
+    margin-top: 3%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+.contact {
+    width: 100%;
+    height: 60vh;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+} 
+.contact-card {
+    width: 70%;
+    height: 70%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+
+}
+.card {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #21212120;
+}
+
+.card-content {
+    align-self: center;
+}
+
+.card-p {
+    color: #610000;
+}
+.card-a {
+    text-decoration: none;
+    color: #610000;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.foot {
+    padding: 5% 10% 0 10%;
+    width: 100%;
+    height: 100vh;
+    background-color: #ccb0a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.foot-div {
+width: 100%;
+height: 100vh;
+}
+.foot-logo {
+    width: 80px;
+}
+ .foot-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.foot-basic {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot-card {
+    width: 100%;
+height: 70%;
+line-height: 1.5;
+color: #ffffff;
+}
+.foot-card h3 {
+     font-size: 2rem;
+     margin: 0 0 30px;
+}
+.foot-card,.terms p {
+    font-size: 14px;
+}
+.terms a {
+    font-size: 15px;
+    line-height: 2;
+    text-decoration: none;
+    color: #ffffff;
+}
+.customer a {
+    color: #fff;
+}
+input {
+    margin-top: 20px;
+width: 80%;
+height: 50px;
+padding: 10px;
+color: #610000;
+border: none;
+}
+input,button:focus {
+    outline:  0px;
+}
+::placeholder {
+    color: #610000;
+    font-size: 14px;
+}
+button {
+    box-sizing: content-box;
+    padding: 10px;
+    width: 30%;
+    border: 0px solid;
+    height: 30px;
+    background-color: #610000;
+    color: #fff;
+}
+button:hover {
+    filter: brightness(1.4);
+    cursor: pointer;
+}
+.copyright {
+    background-color: #ccb0a4;
+
+}
+.copy {
+    margin-left: 135px;
+    color: #efd0efBE;
+    padding-bottom: 20px;
+}
