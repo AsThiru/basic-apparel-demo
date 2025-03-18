@@ -1,2 +1,2 @@
 # basic-apparel-demo
-not-responsive
+without-RWD
